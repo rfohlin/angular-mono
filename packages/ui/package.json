@@ -1,8 +1,8 @@
 {
   "name": "@rfohlin/demo-ui",
   "version": "0.0.9",
-  "main": "dist/ui/bundles/rfohlin-demo-ui.ui.umd.min.js",
-  "files": "dist/ui",
+  "main": "dist/ui/bundles/rfohlin-demo-ui.umd.js",
+  "module": "./fesm5/rfohlin-demo-ui.js",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
