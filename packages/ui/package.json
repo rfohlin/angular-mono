@@ -1,6 +1,6 @@
 {
   "name": "@rfohlin/demo-ui",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/ui/bundles/rfohlin-demo-ui.ui.umd.min.js",
   "files": "dist/ui",
   "peerDependencies": {
