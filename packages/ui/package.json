@@ -1,6 +1,8 @@
 {
   "name": "@rfohlin/demo-ui",
   "version": "0.0.8",
+  "main": "dist/ui/bundles/rfohlin-demo-ui.ui.umd.min.js",
+  "files": "dist/ui",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
@@ -8,5 +10,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "002ea0b519185a7296a18d8899ebe5f03e299751"
+  "gitHead": "002ea0b519185a7296a18d8899ebe5f03e299751",
+  "devDependencies": {
+    "ng-packagr": "^4.1.0"
+  }
 }
