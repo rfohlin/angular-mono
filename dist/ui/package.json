@@ -1,0 +1,28 @@
+{
+  "name": "@rfohlin/demo-ui",
+  "version": "0.0.12",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "002ea0b519185a7296a18d8899ebe5f03e299751",
+  "devDependencies": {
+    "ng-packagr": "^4.1.0"
+  },
+  "main": "bundles/rfohlin-demo-ui.umd.js",
+  "module": "fesm5/rfohlin-demo-ui.js",
+  "es2015": "fesm2015/rfohlin-demo-ui.js",
+  "esm5": "esm5/rfohlin-demo-ui.js",
+  "esm2015": "esm2015/rfohlin-demo-ui.js",
+  "fesm5": "fesm5/rfohlin-demo-ui.js",
+  "fesm2015": "fesm2015/rfohlin-demo-ui.js",
+  "typings": "rfohlin-demo-ui.d.ts",
+  "metadata": "rfohlin-demo-ui.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
