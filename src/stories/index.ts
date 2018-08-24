@@ -1,8 +1,8 @@
 import { storiesOf } from '@storybook/angular'
-import { ButtonModule } from '../../packages/ui/src/public_api'
+import { ButtonModule, ListModule } from '../../packages/ui/src/public_api'
 // import examples
 import { ButtonComponent as ButtonExample } from './examples/button/button.component'
-import { ButtonComponent } from '../../packages/ui/src/lib/button/button.component'
+import { ListComponent as ListExample } from './examples/list/list.component'
 
 storiesOf('Our application', module)
   .add('A template', () => ({
@@ -15,5 +15,13 @@ storiesOf('Our application', module)
         ButtonModule,
       ],
       declarations: []
+    }
+  }))
+  .add('Our list', () => ({
+    component: ListExample,
+    moduleMetadata: {
+      imports: [
+        ListModule,
+      ]
     }
   }))
